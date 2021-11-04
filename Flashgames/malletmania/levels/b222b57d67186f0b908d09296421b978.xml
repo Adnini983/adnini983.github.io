@@ -1,0 +1,163 @@
+<level widthX="40" widthY="18">
+  <column x="1" y="1" z="6" top="tiles.text.startX" height="1"/>
+  <column x="12" y="1" z="3" top="tiles.green.cube" height="1"/>
+  <column x="1" y="2" z="3" top="tiles.green.cube" height="1"/>
+  <object x="11" y="2" z="7" type="objects.magnet"/>
+  <column x="11" y="2" z="6" top="tiles.green.cube" height="1"/>
+  <column x="12" y="2" z="6" top="tiles.green.cube" height="4"/>
+  <column x="1" y="3" z="6" top="tiles.green.start" height="4"/>
+  <column x="2" y="3" z="6" top="tiles.green.oil" height="1"/>
+  <column x="3" y="3" z="6" top="tiles.green.oil" height="1"/>
+  <column x="4" y="3" z="6" top="tiles.green.oil" height="1"/>
+  <column x="5" y="3" z="6" top="tiles.green.oil" height="1"/>
+  <column x="6" y="3" z="6" top="tiles.green.oil" height="1"/>
+  <column x="7" y="3" z="6" top="tiles.green.oil" height="1"/>
+  <column x="8" y="3" z="6" top="tiles.green.oil" height="1"/>
+  <column x="9" y="3" z="6" top="tiles.green.oil" height="1"/>
+  <column x="10" y="3" z="6" top="tiles.green.oil" height="1"/>
+  <column x="11" y="3" z="6" top="tiles.green.oil" height="1"/>
+  <object x="12" y="3" z="7" type="objects.magnet"/>
+  <column x="12" y="3" z="6" top="tiles.green.cube" height="4"/>
+  <column x="13" y="3" z="3" top="tiles.green.cube" height="1"/>
+  <column x="1" y="4" z="3" top="tiles.green.cube" height="1"/>
+  <column x="10" y="4" z="6" top="tiles.green.oil" height="1" rims="x0"/>
+  <column x="11" y="4" z="6" top="tiles.green.oil" height="1"/>
+  <column x="21" y="4" z="7" top="tiles.green.halfCube" height="1"/>
+  <column x="22" y="4" z="7" top="tiles.green.halfCube" height="1"/>
+  <column x="23" y="4" z="7" top="tiles.green.halfCube" height="1"/>
+  <column x="24" y="4" z="7" top="tiles.green.halfCube" height="1"/>
+  <column x="25" y="4" z="6" top="tiles.green.cube" height="1"/>
+  <column x="26" y="4" z="6" top="tiles.green.cube" height="1"/>
+  <column x="27" y="4" z="6" top="tiles.green.cube" height="2"/>
+  <column x="10" y="5" z="6" top="tiles.green.oil" height="1" rims="x0"/>
+  <column x="11" y="5" z="6" top="tiles.green.oil" height="1"/>
+  <column x="21" y="5" z="7" top="tiles.green.halfCube" height="1"/>
+  <column x="22" y="5" z="6" top="tiles.green.oil" height="1"/>
+  <column x="23" y="5" z="6" top="tiles.green.oil" height="1"/>
+  <column x="24" y="5" z="6" top="tiles.green.oil" height="1"/>
+  <object x="25" y="5" z="7" type="objects.magnet"/>
+  <column x="25" y="5" z="6" top="tiles.green.oil" height="1"/>
+  <column x="26" y="5" z="6" top="tiles.green.oil" height="2"/>
+  <column x="27" y="5" z="6" top="tiles.green.cube" height="2"/>
+  <column x="10" y="6" z="6" top="tiles.green.oil" height="1" rims="x0"/>
+  <column x="11" y="6" z="6" top="tiles.green.oil" height="1"/>
+  <column x="21" y="6" z="7" top="tiles.green.halfCube" height="1"/>
+  <column x="22" y="6" z="6" top="tiles.green.oil" height="1"/>
+  <column x="23" y="6" z="6" top="tiles.green.oil" height="1"/>
+  <column x="24" y="6" z="6" top="tiles.green.oil" height="1"/>
+  <column x="25" y="6" z="6" top="tiles.green.oil" height="1"/>
+  <column x="26" y="6" z="6" top="tiles.green.oil" height="1"/>
+  <object x="27" y="6" z="7" type="objects.magnet"/>
+  <column x="27" y="6" z="6" top="tiles.green.cube" height="2"/>
+  <column x="10" y="7" z="6" top="tiles.green.oil" height="1" rims="x0"/>
+  <column x="11" y="7" z="6" top="tiles.green.oil" height="1"/>
+  <column x="21" y="7" z="7" top="tiles.green.halfCube" height="1"/>
+  <column x="22" y="7" z="6" top="tiles.green.oil" height="1"/>
+  <column x="23" y="7" z="6" top="tiles.green.oil" height="1"/>
+  <column x="24" y="7" z="6" top="tiles.green.oil" height="1"/>
+  <column x="25" y="7" z="6" top="tiles.green.oil" height="1"/>
+  <column x="26" y="7" z="6" top="tiles.green.oil" height="1"/>
+  <column x="10" y="8" z="6" top="tiles.green.oil" height="1" rims="x0"/>
+  <column x="11" y="8" z="6" top="tiles.green.oil" height="1"/>
+  <object x="21" y="8" z="7" type="objects.magnet"/>
+  <column x="21" y="8" z="6" top="tiles.green.cube" height="1"/>
+  <column x="22" y="8" z="6" top="tiles.green.oil" height="1"/>
+  <column x="23" y="8" z="6" top="tiles.green.oil" height="1"/>
+  <column x="25" y="8" z="6" top="tiles.green.oil" height="1" rims="x0"/>
+  <column x="26" y="8" z="6" top="tiles.green.oil" height="1"/>
+  <column x="10" y="9" z="6" top="tiles.green.oil" height="1" rims="x0"/>
+  <column x="11" y="9" z="6" top="tiles.green.oil" height="1"/>
+  <object x="17" y="9" z="7" type="objects.roller1" dh="4" dz="0"/>
+  <column x="17" y="9" z="6" top="tiles.green.oil" height="2"/>
+  <column x="22" y="9" z="6" top="tiles.green.oil" height="1"/>
+  <column x="23" y="9" z="6" top="tiles.green.oil" height="1"/>
+  <column x="25" y="9" z="6" top="tiles.green.oil" height="1" rims="x0"/>
+  <column x="26" y="9" z="6" top="tiles.green.oil" height="1"/>
+  <column x="9" y="10" z="7" top="tiles.green.halfCube" height="1"/>
+  <column x="10" y="10" z="6" top="tiles.green.oil" height="1"/>
+  <column x="11" y="10" z="6" top="tiles.green.oil" height="1"/>
+  <object x="15" y="10" z="7" type="objects.roller1" dh="4" dz="0"/>
+  <column x="15" y="10" z="6" top="tiles.green.oil" height="1"/>
+  <column x="17" y="10" z="6" top="tiles.green.oil" height="1"/>
+  <column x="22" y="10" z="6" top="tiles.green.oil" height="1"/>
+  <column x="23" y="10" z="6" top="tiles.green.oil" height="1"/>
+  <column x="25" y="10" z="6" top="tiles.green.oil" height="1" rims="x0"/>
+  <column x="26" y="10" z="6" top="tiles.green.oil" height="1"/>
+  <column x="9" y="11" z="7" top="tiles.green.halfCube" height="1"/>
+  <column x="10" y="11" z="6" top="tiles.green.cube" height="1"/>
+  <column x="11" y="11" z="6" top="tiles.green.cube" height="1"/>
+  <column x="12" y="11" z="6" top="tiles.green.oil" height="1"/>
+  <object x="13" y="11" z="7" type="objects.roller1" dh="4" dz="0"/>
+  <column x="13" y="11" z="6" top="tiles.green.oil" height="1"/>
+  <column x="15" y="11" z="6" top="tiles.green.oil" height="1"/>
+  <column x="17" y="11" z="6" top="tiles.green.oil" height="1"/>
+  <column x="20" y="11" z="6" top="tiles.green.cube" height="1"/>
+  <column x="21" y="11" z="6" top="tiles.green.cube" height="1"/>
+  <column x="22" y="11" z="6" top="tiles.green.cube" height="1"/>
+  <column x="23" y="11" z="6" top="tiles.green.cube" height="1" rims="x1"/>
+  <column x="25" y="11" z="6" top="tiles.green.cube" height="1" rims="x0"/>
+  <column x="26" y="11" z="6" top="tiles.green.cube" height="1"/>
+  <column x="9" y="12" z="7" top="tiles.green.halfCube" height="1"/>
+  <column x="10" y="12" z="6" top="tiles.green.cube" height="1"/>
+  <column x="11" y="12" z="6" top="tiles.green.cube" height="1"/>
+  <column x="12" y="12" z="6" top="tiles.green.oil" height="1"/>
+  <column x="13" y="12" z="6" top="tiles.green.oil" height="1"/>
+  <column x="14" y="12" z="6" top="tiles.green.oil" height="1"/>
+  <column x="15" y="12" z="6" top="tiles.green.oil" height="1"/>
+  <column x="16" y="12" z="6" top="tiles.green.oil" height="1"/>
+  <column x="17" y="12" z="6" top="tiles.green.oil" height="1"/>
+  <column x="18" y="12" z="6" top="tiles.green.oil" height="1"/>
+  <column x="19" y="12" z="6" top="tiles.green.oil" height="1"/>
+  <column x="20" y="12" z="6" top="tiles.green.cube" height="1" rims="y1"/>
+  <column x="21" y="12" z="6" top="tiles.green.cube" height="1" rims="y1"/>
+  <column x="22" y="12" z="6" top="tiles.green.cube" height="1" rims="y1"/>
+  <column x="23" y="12" z="6" top="tiles.green.cube" height="2" rims="x1,y1"/>
+  <column x="25" y="12" z="6" top="tiles.green.cube" height="1" rims="x0"/>
+  <column x="26" y="12" z="6" top="tiles.green.cube" height="1"/>
+  <column x="27" y="12" z="6" top="tiles.green.gamble" height="1" items="1,7,1"/>
+  <column x="28" y="12" z="6" top="tiles.green.oil" height="1"/>
+  <column x="29" y="12" z="6" top="tiles.green.oil" height="1"/>
+  <column x="30" y="12" z="6" top="tiles.green.oil" height="1"/>
+  <column x="9" y="13" z="7" top="tiles.green.halfCube" height="2"/>
+  <column x="10" y="13" z="6" top="tiles.green.cube" height="1" rims="y1"/>
+  <column x="11" y="13" z="6" top="tiles.green.cube" height="1" rims="y1"/>
+  <column x="12" y="13" z="6" top="tiles.green.oil" height="1"/>
+  <column x="13" y="13" z="6" top="tiles.green.oil" height="1"/>
+  <column x="15" y="13" z="6" top="tiles.green.oil" height="1"/>
+  <column x="17" y="13" z="6" top="tiles.green.oil" height="4"/>
+  <column x="23" y="13" z="5" top="tiles.green.cube" height="1"/>
+  <column x="25" y="13" z="6" top="tiles.green.cube" height="2" rims="x0,y1"/>
+  <column x="26" y="13" z="6" top="tiles.green.cube" height="1" rims="y1"/>
+  <column x="27" y="13" z="6" top="tiles.green.cube" height="1" rims="y1"/>
+  <column x="28" y="13" z="6" top="tiles.green.oil" height="1"/>
+  <column x="29" y="13" z="6" top="tiles.green.oil" height="1"/>
+  <column x="30" y="13" z="6" top="tiles.green.oil" height="1"/>
+  <column x="31" y="13" z="6" top="tiles.green.oil" height="1"/>
+  <column x="32" y="13" z="6" top="tiles.green.oil" height="1"/>
+  <column x="33" y="13" z="6" top="tiles.green.oil" height="1"/>
+  <column x="13" y="14" z="6" top="tiles.green.oil" height="1"/>
+  <column x="15" y="14" z="6" top="tiles.green.oil" height="4"/>
+  <column x="17" y="14" z="3" top="tiles.green.cube" height="1"/>
+  <column x="23" y="14" z="5" top="tiles.green.cube" height="1"/>
+  <column x="25" y="14" z="5" top="tiles.green.cube" height="1"/>
+  <column x="31" y="14" z="6" top="tiles.green.oil" height="1"/>
+  <column x="32" y="14" z="6" top="tiles.green.oil" height="1"/>
+  <column x="33" y="14" z="6" top="tiles.green.oil" height="1"/>
+  <column x="34" y="14" z="6" top="tiles.green.oil" height="1"/>
+  <column x="35" y="14" z="6" top="tiles.green.oil" height="1"/>
+  <column x="36" y="14" z="6" top="tiles.green.oil" height="1" rims="y0"/>
+  <column x="37" y="14" z="6" top="tiles.green.cube" height="1" rims="x1,y0"/>
+  <column x="13" y="15" z="6" top="tiles.green.oil" height="4"/>
+  <column x="15" y="15" z="3" top="tiles.green.cube" height="1"/>
+  <column x="23" y="15" z="5" top="tiles.green.cube" height="1"/>
+  <column x="24" y="15" z="5" top="tiles.green.cube" height="1"/>
+  <column x="25" y="15" z="5" top="tiles.green.cube" height="1"/>
+  <column x="34" y="15" z="6" top="tiles.green.oil" height="1" rims="y1"/>
+  <column x="35" y="15" z="6" top="tiles.green.oil" height="1" rims="y1"/>
+  <column x="36" y="15" z="6" top="tiles.green.oil" height="1" rims="y1"/>
+  <column x="37" y="15" z="6" top="tiles.green.finish" height="4" rims="x1,y1"/>
+  <column x="38" y="15" z="3" top="tiles.green.cube" height="1"/>
+  <column x="13" y="16" z="3" top="tiles.green.cube" height="1"/>
+  <column x="36" y="16" z="6" top="tiles.text.finishX" height="1"/>
+  <column x="37" y="16" z="3" top="tiles.green.cube" height="1"/>
+</level>

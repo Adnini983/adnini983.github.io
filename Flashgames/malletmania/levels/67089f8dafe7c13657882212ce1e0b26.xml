@@ -1,0 +1,41 @@
+<level widthX="12" widthY="13">
+  <column x="1" y="1" z="10" top="tiles.text.finishX" height="1"/>
+  <column x="9" y="1" z="5" top="tiles.green.slopes.yUp3" height="2"/>
+  <column x="1" y="2" z="9" top="tiles.green.finish" height="4" rims="x0,x1,y0"/>
+  <object x="4" y="2" z="8" type="objects.collectible"/>
+  <column x="4" y="2" z="7" top="tiles.green.cube" height="1" rims="x0,y0"/>
+  <column x="5" y="2" z="8" top="tiles.green.slopes.xUp1" height="4"/>
+  <column x="6" y="2" z="8" top="tiles.green.slopes.xDown1" height="4"/>
+  <column x="7" y="2" z="7" top="tiles.green.slopes.xDown2" height="3"/>
+  <column x="8" y="2" z="7" top="tiles.green.slopes.xDown1" height="3"/>
+  <column x="9" y="2" z="6" top="tiles.green.start" height="3" rims="x1"/>
+  <column x="10" y="2" z="4" top="tiles.green.slopes.xDown3" height="1"/>
+  <column x="1" y="3" z="9" top="tiles.green.slopes.yDown2" height="4"/>
+  <column x="4" y="3" z="7" top="tiles.green.cube" height="3" rims="x0"/>
+  <column x="9" y="3" z="5" top="tiles.green.slopes.yDown3" height="2"/>
+  <column x="1" y="4" z="9" top="tiles.green.slopes.yDown1" height="4"/>
+  <column x="4" y="4" z="8" top="tiles.green.slopes.yUp1" height="4"/>
+  <column x="9" y="4" z="7" top="tiles.text.startX" height="1"/>
+  <object x="1" y="5" z="9" type="objects.collectible"/>
+  <column x="1" y="5" z="8" top="tiles.green.cube" height="2"/>
+  <column x="4" y="5" z="8" top="tiles.green.halfCube" height="4"/>
+  <column x="5" y="5" z="7" top="tiles.green.slopes.xDown3" height="4"/>
+  <column x="6" y="5" z="4" top="tiles.green.slopes.xDown3" height="1"/>
+  <column x="1" y="6" z="9" top="tiles.green.slopes.yUp1" height="3"/>
+  <column x="4" y="6" z="8" top="tiles.green.slopes.yUp2" height="4"/>
+  <column x="1" y="7" z="9" top="tiles.green.slopes.yUp2" height="2"/>
+  <column x="4" y="7" z="8" top="tiles.green.cube" height="4" rims="x1"/>
+  <column x="1" y="8" z="9" top="tiles.green.cube" height="1" rims="x0"/>
+  <column x="4" y="8" z="8" top="tiles.green.cube" height="4" rims="x1"/>
+  <column x="5" y="8" z="7" top="tiles.green.slopes.xDown3" height="4"/>
+  <column x="6" y="8" z="4" top="tiles.green.slopes.xDown3" height="1"/>
+  <column x="1" y="9" z="9" top="tiles.green.gamble" height="5" rims="x0,y1" items="9,7,9"/>
+  <column x="2" y="9" z="9" top="tiles.green.slopes.xDown2" height="5"/>
+  <column x="3" y="9" z="9" top="tiles.green.slopes.xDown1" height="5"/>
+  <object x="4" y="9" z="9" type="objects.collectible"/>
+  <column x="4" y="9" z="8" top="tiles.green.cube" height="4" rims="x1,y1"/>
+  <column x="1" y="10" z="7" top="tiles.green.slopes.yDown3" height="4"/>
+  <column x="4" y="10" z="7" top="tiles.green.slopes.yDown3" height="4"/>
+  <column x="1" y="11" z="4" top="tiles.green.slopes.yDown3" height="1"/>
+  <column x="4" y="11" z="4" top="tiles.green.slopes.yDown3" height="1"/>
+</level>

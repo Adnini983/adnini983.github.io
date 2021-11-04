@@ -1,0 +1,81 @@
+<level widthX="18" widthY="13">
+  <column x="9" y="1" z="15" top="tiles.text.startX" height="1"/>
+  <column x="2" y="2" z="12" top="tiles.conveyor.yForward1" height="1"/>
+  <column x="3" y="2" z="12" top="tiles.conveyor.yBackward1" height="1"/>
+  <column x="4" y="2" z="12" top="tiles.conveyor.yForward1" height="1"/>
+  <column x="6" y="2" z="13" top="tiles.green.slopes.xUp3" height="1"/>
+  <column x="7" y="2" z="14" top="tiles.green.slopes.xUp3" height="5"/>
+  <column x="8" y="2" z="14" top="tiles.green.start" height="2"/>
+  <column x="9" y="2" z="14" top="tiles.conveyor.xForward1" height="2"/>
+  <column x="10" y="2" z="14" top="tiles.conveyor.xForward2" height="2"/>
+  <column x="11" y="2" z="14" top="tiles.conveyor.xForward2" height="2"/>
+  <column x="12" y="2" z="14" top="tiles.conveyor.xForward3" height="2"/>
+  <column x="13" y="2" z="14" top="tiles.green.cube" height="3"/>
+  <column x="14" y="2" z="14" top="tiles.green.cube" height="3"/>
+  <object x="15" y="2" z="15" type="objects.collectible"/>
+  <column x="15" y="2" z="14" top="tiles.green.cube" height="4"/>
+  <column x="16" y="2" z="14" top="tiles.green.slopes.xDown3" height="12"/>
+  <column x="2" y="3" z="12" top="tiles.conveyor.yForward2" height="2"/>
+  <column x="3" y="3" z="12" top="tiles.conveyor.yBackward2" height="1"/>
+  <column x="4" y="3" z="12" top="tiles.conveyor.yForward2" height="1"/>
+  <column x="5" y="3" z="12" top="tiles.green.arrows.xBackward" height="3"/>
+  <column x="6" y="3" z="12" top="tiles.green.cube" height="2"/>
+  <column x="7" y="3" z="12" top="tiles.green.cube" height="2"/>
+  <column x="15" y="3" z="14" top="tiles.conveyor.yBackward1" height="4"/>
+  <column x="2" y="4" z="12" top="tiles.conveyor.yForward2" height="1"/>
+  <column x="3" y="4" z="12" top="tiles.conveyor.yBackward2" height="1"/>
+  <column x="4" y="4" z="12" top="tiles.conveyor.yForward2" height="1"/>
+  <object x="7" y="4" z="13" type="objects.collectible"/>
+  <column x="7" y="4" z="12" top="tiles.green.cube" height="2"/>
+  <column x="8" y="4" z="12" top="tiles.green.slopes.xDown3" height="2"/>
+  <column x="9" y="4" z="11" top="tiles.green.cube" height="1"/>
+  <column x="10" y="4" z="11" top="tiles.green.cube" height="1"/>
+  <column x="11" y="4" z="11" top="tiles.green.cube" height="1"/>
+  <column x="12" y="4" z="11" top="tiles.green.cube" height="1"/>
+  <column x="13" y="4" z="11" top="tiles.green.cube" height="1"/>
+  <column x="14" y="4" z="11" top="tiles.green.cube" height="1"/>
+  <column x="15" y="4" z="14" top="tiles.conveyor.yBackward3" height="4"/>
+  <column x="2" y="5" z="12" top="tiles.conveyor.yForward3" height="6"/>
+  <column x="3" y="5" z="12" top="tiles.conveyor.yBackward3" height="1"/>
+  <column x="4" y="5" z="12" top="tiles.conveyor.yForward3" height="1"/>
+  <column x="7" y="5" z="12" top="tiles.conveyor.yBackward1" height="1"/>
+  <column x="15" y="5" z="14" top="tiles.conveyor.yForward1" height="4"/>
+  <column x="2" y="6" z="11" top="tiles.green.slopes.yDown3" height="2"/>
+  <column x="7" y="6" z="12" top="tiles.conveyor.yBackward2" height="1"/>
+  <column x="15" y="6" z="14" top="tiles.conveyor.yForward2" height="4"/>
+  <column x="1" y="7" z="12" top="tiles.text.finishY" height="1"/>
+  <column x="2" y="7" z="10" top="tiles.green.finish" height="1"/>
+  <column x="7" y="7" z="12" top="tiles.conveyor.yBackward2" height="1"/>
+  <object x="15" y="7" z="15" type="objects.collectible"/>
+  <column x="15" y="7" z="14" top="tiles.conveyor.yForward3" height="4"/>
+  <column x="2" y="8" z="11" top="tiles.green.slopes.yUp3" height="2"/>
+  <column x="7" y="8" z="12" top="tiles.conveyor.yBackward2" height="1"/>
+  <column x="15" y="8" z="12" top="tiles.green.cube" height="2"/>
+  <column x="2" y="9" z="11" top="tiles.green.cube" height="2"/>
+  <column x="7" y="9" z="12" top="tiles.conveyor.yBackward2" height="1"/>
+  <column x="15" y="9" z="12" top="tiles.green.cube" height="2"/>
+  <column x="2" y="10" z="11" top="tiles.green.cube" height="12"/>
+  <column x="3" y="10" z="11" top="tiles.green.slopes.xDown3" height="2"/>
+  <column x="4" y="10" z="10" top="tiles.green.cube" height="1"/>
+  <column x="5" y="10" z="10" top="tiles.green.cube" height="1"/>
+  <column x="6" y="10" z="10" top="tiles.green.cube" height="1"/>
+  <object x="7" y="10" z="13" type="objects.collectible"/>
+  <column x="7" y="10" z="12" top="tiles.conveyor.yBackward3" height="3"/>
+  <column x="8" y="10" z="12" top="tiles.conveyor.xBackward1" height="1"/>
+  <column x="9" y="10" z="12" top="tiles.conveyor.xBackward2" height="1"/>
+  <column x="10" y="10" z="12" top="tiles.conveyor.xBackward2" height="1"/>
+  <column x="11" y="10" z="12" top="tiles.conveyor.xBackward2" height="1"/>
+  <column x="12" y="10" z="12" top="tiles.conveyor.xBackward2" height="1"/>
+  <column x="13" y="10" z="12" top="tiles.conveyor.xBackward2" height="1"/>
+  <column x="14" y="10" z="12" top="tiles.conveyor.xBackward3" height="1"/>
+  <object x="15" y="10" z="13" type="objects.collectible"/>
+  <column x="15" y="10" z="12" top="tiles.green.cube" height="11"/>
+  <column x="7" y="11" z="11" top="tiles.green.slopes.yDown3" height="2"/>
+  <column x="8" y="11" z="10" top="tiles.green.cube" height="1"/>
+  <column x="9" y="11" z="10" top="tiles.green.cube" height="1"/>
+  <column x="10" y="11" z="10" top="tiles.green.cube" height="1"/>
+  <column x="11" y="11" z="10" top="tiles.green.cube" height="1"/>
+  <column x="12" y="11" z="10" top="tiles.green.cube" height="1"/>
+  <column x="13" y="11" z="10" top="tiles.green.cube" height="1"/>
+  <column x="14" y="11" z="10" top="tiles.green.cube" height="9"/>
+</level>
