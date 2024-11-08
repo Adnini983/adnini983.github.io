@@ -100,15 +100,15 @@ service-worker: true
 friends: [
     {
         title: "Bilibili",
-        href: "http://zhengwuyang.com"
+        href: "https://space.bilibili.com/130666628"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "知乎",
+        href: "https://www.zhihu.com/people/adnini983"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "QQ群",
+        href: "https://qm.qq.com/q/ThYkG4x6ik"
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "百度贴吧",
+        href: "https://tieba.baidu.com/home/main?id=tb.1.f917ef71.CR_0LkesgHiMaWgJRB5mOw"
     }
 ]
