@@ -1,26 +1,42 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=8"/>
-<meta http-equiv="Expires" content="0" />
-<meta http-equiv="Pragma" content="no-cache" />
-<meta http-equiv="Cache-control" content="no-cache" />
-<meta http-equiv="Cache" content="no-cache" />
-<title>index</title>
-</head>
-<style>td{width:30%;} div{display:inline-block;width:50%;} body{padding:22px;} li{margin-top:5px;} ul{list-style:none;margin:0;padding:0;}</style>
-<body>
-<h2>Index of/</h2><hr>
-<table>
-<tr><td><a href='#index.html'>.../</a><td></tr>
-<tr>
-<td><a href='https://adnini983.github.io//Flashgames'>Flashgames/</a></td>
-<td><span>2021/11/4 17:18:11</span></td>
-<td><span>-<span></td>
-</tr>
-<tr style='margin-top:27px;'><td><a href='https://adnini983.github.io/'>home</a>&nbsp|&nbsp<a href='https://github.com/Adnini983/'>github</a><td></tr>
-</table>
-</body>
-</html>
+---
+layout: page
+description: "青春如遊戲，只是不能再讀檔"
+---
+
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {{ post.content | strip_html | truncate:200 }}
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+</div>
+<hr>
+{% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
