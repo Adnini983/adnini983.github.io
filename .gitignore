@@ -23,8 +23,8 @@ package-lock.json
 !.vscode/tasks.json
 
 # Misc
-_sass/vendors
-assets/js/dist
+# 注：`_sass/vendors` 与 `assets/js/dist` 已从忽略列表移除，
+# 以便提交构建产物（fork 主题仓库后运行 tools/init.sh 会生成它们）。
 
 # Hidden system files
 *~
