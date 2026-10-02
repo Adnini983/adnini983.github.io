@@ -12,7 +12,7 @@ pin: false
 
 ## 你需要准备：
 
-- 在[SoundHax](http://soundhax.com/)下载用于触发漏洞的M4A文件，区域和机型根据实际情况选择，系统版本可参考[这里](res/update_table.png)。
+- 在[SoundHax](http://soundhax.com/)下载用于触发漏洞的M4A文件，区域和机型根据实际情况选择，系统版本可参考[这里](/assets/img/posts/3ds-devkit-guide/res/update_table.png)。
 - 最新版本的 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip)
 - 最新版本的 [boot9strap Devkit](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4-devkit.zip)
 - 最新版本的 [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)(下载".zip"文件)

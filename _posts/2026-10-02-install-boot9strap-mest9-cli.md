@@ -42,10 +42,10 @@ pin: false
 - 14 将储存卡插回机器内
 - 15 将机器开机
 - 16 在机器内运行"Mii Maker"
-- 17 等待机器显示"[欢迎来到Mii Maker](res/mii-welcome.png)"窗口，然后退出Mii Maker并返回主菜单。
-	-  你会看到此[画面](res/mii-extdata.png)，这代表着正在创建所需数据。
-	-  如果看到的只是[Mii Maker的菜单](res/mii-existing.png)，则代表数据已经存在，退出Mii Maker并返回主菜单。
-- 18 运行系统设置(System Settings)，依次选择"数据管理(Data Management)"→"任天堂3DS(Nintendo 3DS)"→"软件(Software)"，然后点击"重置(Reset)"([图片步骤](res/database-reset.jpg))。
+- 17 等待机器显示"[欢迎来到Mii Maker](/assets/img/posts/3ds-devkit-guide/res/mii-welcome.png)"窗口，然后退出Mii Maker并返回主菜单。
+	-  你会看到此[画面](/assets/img/posts/3ds-devkit-guide/res/mii-extdata.png)，这代表着正在创建所需数据。
+	-  如果看到的只是[Mii Maker的菜单](/assets/img/posts/3ds-devkit-guide/res/mii-existing.png)，则代表数据已经存在，退出Mii Maker并返回主菜单。
+- 18 运行系统设置(System Settings)，依次选择"数据管理(Data Management)"→"任天堂3DS(Nintendo 3DS)"→"软件(Software)"，然后点击"重置(Reset)"([图片步骤](/assets/img/posts/3ds-devkit-guide/res/database-reset.jpg))。
 	- 这不会清空你的任何数据
 - 19 按住电源键，然后点击下屏的"Power Off"以将机器关机。
 - 20 将机器的储存卡插入电脑中
