@@ -70,6 +70,7 @@ pin: true
 
 ### 三部分 - 选择一个方案
 要想为你的机器选择适合的破解方案，你需要根据二部分中看到的SDK版本，以及你的机型选择适合的方案
+
 | 机型 | SDK版本 | 方案 |
 | :---: | :---: | :---: |
 | CTR/SPR<br>FTR<br>SNAKE/CLOSER | 0.14.24-0.25.4<br>0.19.6-0.25.4<br>0.22.16-0.25.4 | [soundhax](/posts/install-boot9strap-soundhax/) |
