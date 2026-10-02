@@ -1,10 +1,14 @@
-## Template › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
+## 模板 › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
 # -------------------------------------
 # {author_id}:
 #   name: {full name}
 #   twitter: {twitter_of_author}
 #   url: {homepage_of_author}
 # -------------------------------------
+
+adnini983:
+  name: Adnini983
+  url: https://github.com/Adnini983/
 
 cotes:
   name: Cotes Chung

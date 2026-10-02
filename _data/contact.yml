@@ -1,18 +1,16 @@
-#  The contact options.
+#  联系方式选项。
 
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
-
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
-
 - type: rss
   icon: "fas fa-rss"
   noblank: true
+
+# 如需启用邮箱联系方式，请在 _config.yml 的 social.email 中填写邮箱，然后取消下面的注释。
+# - type: email
+#   icon: "fas fa-envelope"
+#   noblank: true # 在当前标签页打开
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
