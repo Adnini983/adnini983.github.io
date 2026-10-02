@@ -99,7 +99,7 @@ cdn: ""
 
 # 侧边栏头像，支持本地或 CORS 资源
 # 留空则侧边栏不显示头像。
-avatar: ""
+avatar: /assets/img/avatar.png
 
 # 用于 SEO `og:image` 元标签的全站社交预览图 URL。
 # 可通过文章 front matter 中的自定义 `page.image` 覆盖。
