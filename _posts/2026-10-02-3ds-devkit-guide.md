@@ -1,5 +1,5 @@
 ---
-title: "3DS开发机破解指南（第三版）"
+title: "3DS开发机破解指南（第四版）"
 date: 2026-10-02 00:00:00 +0800
 categories: [3DS, 破解指南]
 tags: [3DS, 开发机, 破解, boot9strap]

@@ -4,7 +4,7 @@
   <!-- markdownlint-disable-next-line -->
   # Adnini983 的博客
 
-  一个记录 **3DS 开发机破解与自制固件** 的中文技术博客，基于 Chirpy Jekyll 主题。
+  一个记录 **3DS 开发机破解与自制固件** 和其它内容的中文技术博客，基于 Chirpy Jekyll 主题。
 
   [![GitHub license][badge-license]][license]
 

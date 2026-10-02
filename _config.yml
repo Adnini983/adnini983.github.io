@@ -14,9 +14,9 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag 设置 › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Adnini983 的博客 # 网站主标题
+title: Adnini983 # 网站主标题
 
-tagline: 3DS 开发机破解与自制固件 # 显示为副标题
+tagline: 内容随缘更新 # 显示为副标题
 
 description: >- # 用于 SEO 元数据与 Atom 订阅
   记录 3DS 开发机破解（安装自制固件 boot9strap）的完整指南，以及我的技术笔记。
