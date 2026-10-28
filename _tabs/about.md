@@ -25,6 +25,6 @@ order: 4
 ## 联系方式
 
 - GitHub：<https://github.com/Adnini983>
-- QQ群聊：[076530032](https://qm.qq.com/q/hVOKXTliWA)
+- QQ群聊：[1076530032](https://qm.qq.com/q/hVOKXTliWA)
 
 > 本指南仅供学习与技术交流使用。请遵守当地法律法规，尊重任天堂的版权与用户协议。
