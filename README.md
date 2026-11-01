@@ -29,10 +29,13 @@
 
 ## 部署方式
 
-本站通过 GitHub Actions 自动构建并部署到 GitHub Pages。向 `master` 分支推送即可触发构建。
+本站由同一条 `master` 分支经两条流水线分别构建部署：
 
-主域名 [`adnini983.com`][site] 通过 Cloudflare 的 CNAME 代理指向 [`adnini983.github.io`][site-gh]，
-两者内容一致；站点的规范地址（canonical / sitemap / RSS）统一为主域名。
+- **Cloudflare Pages**（Git 集成，自动部署）→ 主域 [`adnini983.com`][site]，
+  同时提供 `www.adnini983.com` 与 [`adnini983.pages.dev`][pages-dev]
+- **GitHub Actions** → [`adnini983.github.io`][site-gh]
+
+站点的规范地址（canonical / sitemap / RSS）统一为主域名 `adnini983.com`，`github.io` 作为镜像。
 
 ## 如何写一篇新文章
 
@@ -63,6 +66,7 @@ author: adnini983
 [license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
 [site]: https://adnini983.com/
 [site-gh]: https://adnini983.github.io/
+[pages-dev]: https://adnini983.pages.dev/
 [jekyllrb]: https://jekyllrb.com/
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy
 [lib]: https://github.com/cotes2020/chirpy-static-assets
