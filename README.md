@@ -8,7 +8,7 @@
 
   [![GitHub license][badge-license]][license]
 
-  [**访问站点** →][site]
+  [**访问站点** →][site] ｜ [**GitHub Pages 镜像** →][site-gh]
 
 </div>
 
@@ -30,6 +30,9 @@
 ## 部署方式
 
 本站通过 GitHub Actions 自动构建并部署到 GitHub Pages。向 `master` 分支推送即可触发构建。
+
+主域名 [`adnini983.com`][site] 通过 Cloudflare 的 CNAME 代理指向 [`adnini983.github.io`][site-gh]，
+两者内容一致；站点的规范地址（canonical / sitemap / RSS）统一为主域名。
 
 ## 如何写一篇新文章
 
@@ -58,7 +61,8 @@ author: adnini983
 
 [badge-license]: https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy?color=goldenrod
 [license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
-[site]: https://adnini983.github.io/
+[site]: https://adnini983.com/
+[site-gh]: https://adnini983.github.io/
 [jekyllrb]: https://jekyllrb.com/
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy
 [lib]: https://github.com/cotes2020/chirpy-static-assets
