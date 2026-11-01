@@ -60,14 +60,14 @@ pin: true
 
 ### 一部分 - CFW检查
 1. 将机器关机
-2. 按住"Select"键
-3. 在按住"Select"键的同时按下电源键
+2. 按住`Select`键
+3. 在按住`Select`键的同时按下电源键
 4. 如果你没有看到任何自制软件/固件的设置菜单(正常情况下只会进入主菜单或测试菜单) 你可以继续往下看
 
 ### 二部分 - SDK版本检查
 
-1. 在机器中打开"Dev Menu"
-2. 你的SDK版本可在上屏中的"Firmware Ver."的右侧看到(例如"0.28.0(r62419)"
+1. 在机器中打开`Dev Menu`
+2. 你的SDK版本可在上屏中的`Firmware Ver.`的右侧看到(例如`0.28.0(r62419)`
 ![](res/SDK_VersionCheck.jpg)
 
 ### 三部分 - 选择一个方案
@@ -82,5 +82,5 @@ pin: true
 | 连接外部硬件 | 任意/损坏 | [ntrboot](/posts/write-ntrboot/)<br>[CTR SystemUpdater](/posts/ctr-systemupdater-ctr-008/) |
 
 **以下是特殊机型适用的破解方案**
-- [Louvre New 3DS XL](/posts/launch-devmenu-louvre-n3dsxl/)：需要确保"Dev Menu"可以正常运行
+- [Louvre New 3DS XL](/posts/launch-devmenu-louvre-n3dsxl/)：需要确保`Dev Menu`可以正常运行
 - [原型机/工程机/系统损坏](/posts/system-completely-broken/)：需要可兼容的DS烧录卡或者CTR-008开发机卡带以及对应的烧录设备

@@ -11,7 +11,7 @@ pin: false
 ---
 
 ## 兼容性注意：
-**本文暂不支持"New 3DS"系列开发机机型。如果你的开发机是属于SNAKE/CLOSER/JAN系列中的任何一种，请阅读CTR SystemUpdater (CTR-008)，或寻求其它的方法。**
+**本文暂不支持“New 3DS”系列开发机机型。如果你的开发机是属于SNAKE/CLOSER/JAN系列中的任何一种，请阅读[CTR SystemUpdater (CTR-008)](/posts/ctr-systemupdater-ctr-008/)，或寻求其它的方法。**
 
 ## 在本文中：
 - 备份原始NAND数据的同时，写入预制的CTRTransfer镜像，以代替本身已损坏的原始系统。
@@ -32,13 +32,13 @@ pin: false
 ### 一部分 - 准备工作
 - 1 将机器关机
 - 2 将机器的储存卡插入电脑中
-- 3 在储存卡的根目录建立一个叫"3ds"的文件夹(如果没有)
-- 4 复制"faketik.3dsx"到储存卡的"\3ds\"文件夹内
-- 5 在储存卡的根目录建立一个叫"luma"的文件夹，然后在"luma"文件夹里再建立一个叫"payloads"的文件夹(如果没有)。
-- 6 将"GodMode9-****-***********.zip"压缩档内的"GodMode9_dev.firm"文件解压至储存卡的"\luma\payloads\"文件夹内
-- 7 将"GodMode9-****-***********.zip"压缩档内的"gm9"文件夹解压至储存卡根目录内
-- 8 在储存卡的"\gm9\"文件夹内建立一个叫"in"的文件夹(如果没有)
-- 9 将"[机型]_0.33.0_[区域]_ctrtransfer.rar"压缩档内的".bin"和".bin.sha"文件解压至储存卡的"\gm9\in\"文件夹内
+- 3 在储存卡的根目录建立一个叫`3ds`的文件夹(如果没有)
+- 4 复制`faketik.3dsx`到储存卡的`\3ds\`文件夹内
+- 5 在储存卡的根目录建立一个叫`luma`的文件夹，然后在`luma`文件夹里再建立一个叫`payloads`的文件夹(如果没有)。
+- 6 将`GodMode9-****-***********.zip`压缩档内的`GodMode9_dev.firm`文件解压至储存卡的`\luma\payloads\`文件夹内
+- 7 将`GodMode9-****-***********.zip`压缩档内的`gm9`文件夹解压至储存卡根目录内
+- 8 在储存卡的`\gm9\`文件夹内建立一个叫`in`的文件夹(如果没有)
+- 9 将`[机型]_0.33.0_[区域]_ctrtransfer.rar`压缩档内的`.bin`和`.bin.sha`文件解压至储存卡的`\gm9\in\`文件夹内
 - 10 将储存卡重新插回机器内
 	- 此时的目录结构应为：
 ~~~
@@ -76,25 +76,26 @@ pin: false
 └─ 3ds // .3dsx格式自制程序目录
    └─ faketik.3dsx
 ~~~
+
 ### 二部分 - 备份原始NAND数据
 - 1 按住START键，然后按下开机键，片刻后会进入GodMode9。
-	- 如果进入的是"Luma3DS chainloader"菜单，使用十字键手动选择"GodMode9_dev"，然后按"A"运行。
-		-  如果"GodMode9"提示你需要备份重要数据，按"A"执行此操作，片刻后按"A"继续。
-		-  如果"GodMode9"提示RTC错误，按"A"修改机器时间，也可以按"B"暂时跳过。
-- 2 按下"HOME"键以开启位于下屏的功能菜单
-- 3 选择"Scripts..."
-- 4 选择"NANDManager"
-- 5 按"X"，然后按"A"，以备份SysNAND。
-- 6 待进度条跑完后，按"A"确认，然后按十字键"↑"，再次按"A"回到主菜单。
-- 7 打开"[S:] SYSNAND VIRTUAL"分区
-- 8 用十字键选定文件"essential.exefs"
-- 9 按"A"打开文件菜单
-- 10 十字键选择"Copy to 0:/gm9/out"，然后按"A"复制。
-	-  如果下屏出现"Destination already exists"，用十字键选择"Overwrite file(s)"，然后按"A"覆盖。
-- 11 再次按"A"以继续
-- 12 按住"R"，然后按下"START"以将机器关机。
+	- 如果进入的是“Luma3DS chainloader”菜单，使用十字键手动选择`GodMode9_dev`，然后按`A`运行。
+		-  如果“GodMode9”提示你需要备份重要数据，按`A`执行此操作，片刻后按`A`继续。
+		-  如果“GodMode9”提示RTC错误，按`A`修改机器时间，也可以按`B`暂时跳过。
+- 2 按下`HOME`键以开启位于下屏的功能菜单
+- 3 选择`Scripts...`
+- 4 选择`NANDManager`
+- 5 按`X`，然后按`A`，以备份SysNAND。
+- 6 待进度条跑完后，按`A`确认，然后按十字键`↑`，再次按`A`回到主菜单。
+- 7 打开`[S:] SYSNAND VIRTUAL`分区
+- 8 用十字键选定文件`essential.exefs`
+- 9 按`A`打开文件菜单
+- 10 十字键选择`Copy to 0:/gm9/out`，然后按`A`复制。
+	-  如果下屏出现`Destination already exists`，用十字键选择`Overwrite file(s)`，然后按`A`覆盖。
+- 11 再次按`A`以继续
+- 12 按住`R`，然后按下`START`以将机器关机。
 - 13 将机器的储存卡插入电脑中
-- 14 在电脑中打开储存卡的"/gm9/out/"文件夹
+- 14 在电脑中打开储存卡的`/gm9/out/`文件夹
 - 15 将以下文件复制出来：
 ~~~
 [日期]_[序列号]_sysnand_[次数].bin
@@ -107,68 +108,68 @@ essential.exefs
 
 ### 三部分 - 写入CTRTransfer镜像
 - 1 按住START键，然后按下开机键，片刻后会进入GodMode9。
-	-  如果进入的是"Luma3DS chainloader"菜单，使用十字键手动选择"GodMode9_dev"，然后按"A"运行。
-- 2 打开"[0:] SDCARD ([FAT卷标])"储存卡分区
-- 3 打开"\gm9\in\"文件夹
-- 4 用十字键选定CTRTransfer镜像"[机型]_0.33.0_[区域]_ctrtransfer.bin"
-- 5 按"A"以呼出文件菜单
-- 6 选择"Calculate SHA-256"
-- 7 待进度条跑完后，如果文件未损坏，会显示"passed"，之后按"B"返回。
-	-  如果显示的是"failed"，说明文件可能已损坏，请重新复制一遍镜像，或者更换你的储存卡。
-- 8 再次按十字键选中"[机型]_0.33.0_[区域]_ctrtransfer.bin"，然后按"A"呼出文件菜单。
-- 9 依次选择"CTRNAND options..."→"Transfer image to CTRNAND"→"Transfer to SysNAND"
-- 10 再次按"A"，然后依次输入下屏给出的组合键以解锁LV1 SysNAND写入权限。
-- 11 按"A"继续，然后再次按"A"关闭写入权限。
-- 12 按"B"返回主界面
-- 13 用十字键选中"[1:] SYSNAND CTRNAND"，按"R"+"A"键。
-- 14 选择"Fix CMACs for drive"
-- 15 再次按"A"，然后依次输入下屏给出的组合键以解锁LV1 SysNAND写入权限。
-- 16 期间会提示解锁LV2 SysNAND写入权限，一律按"A"键，然后依次输入下屏给出的组合键。
-- 17 出现提示后按"A"，然后再次按"A"关闭写入权限。
-- 18 按"START"键重启机器，然后等待机器启动"Test Menu"。
-- 19 按"START"键启动"Dev Menu"
-- 20 在下屏的"Program"选项卡里找到"Config"
-- 21 按"A"或使用触控笔轻触"Config"
-- 22 再次按"A"或使用触控笔轻触"Launch (A)"以启动"Config"
-- 23 使用十字键选定上屏的"Menu Setting"，然后按"A"。
-- 24 使用十字键选定下屏的"Menu"，然后按"A"。
-- 25 使用十字键"↑"或"↓"选定"test menu"，然后按"B"两次。
+	-  如果进入的是“Luma3DS chainloader”菜单，使用十字键手动选择`GodMode9_dev`，然后按`A`运行。
+- 2 打开`[0:] SDCARD ([FAT卷标])`储存卡分区
+- 3 打开`\gm9\in\`文件夹
+- 4 用十字键选定CTRTransfer镜像`[机型]_0.33.0_[区域]_ctrtransfer.bin`
+- 5 按`A`以呼出文件菜单
+- 6 选择`Calculate SHA-256`
+- 7 待进度条跑完后，如果文件未损坏，会显示`passed`，之后按`B`返回。
+	-  如果显示的是`failed`，说明文件可能已损坏，请重新复制一遍镜像，或者更换你的储存卡。
+- 8 再次按十字键选中`[机型]_0.33.0_[区域]_ctrtransfer.bin`，然后按`A`呼出文件菜单。
+- 9 依次选择`CTRNAND options...`→`Transfer image to CTRNAND`→`Transfer to SysNAND`
+- 10 再次按`A`，然后依次输入下屏给出的组合键以解锁LV1 SysNAND写入权限。
+- 11 按`A`继续，然后再次按`A`关闭写入权限。
+- 12 按`B`返回主界面
+- 13 用十字键选中`[1:] SYSNAND CTRNAND`，按`R`+`A`键。
+- 14 选择`Fix CMACs for drive`
+- 15 再次按`A`，然后依次输入下屏给出的组合键以解锁LV1 SysNAND写入权限。
+- 16 期间会提示解锁LV2 SysNAND写入权限，一律按`A`键，然后依次输入下屏给出的组合键。
+- 17 出现提示后按`A`，然后再次按`A`关闭写入权限。
+- 18 按`START`键重启机器，然后等待机器启动“Test Menu”。
+- 19 按`START`键启动“Dev Menu”
+- 20 在下屏的“Program”选项卡里找到“Config”
+- 21 按`A`或使用触控笔轻触“Config”
+- 22 再次按`A`或使用触控笔轻触`Launch (A)`以启动“Config”
+- 23 使用十字键选定上屏的`Menu Setting`，然后按`A`。
+- 24 使用十字键选定下屏的`Menu`，然后按`A`。
+- 25 使用十字键`↑`或`↓`选定`test menu`，然后按`B`两次。
 - 26 轻按电源键以重启机器
 - 27 重复步骤19-24
-- 28 使用十字键"↑"或"↓"选定"home menu"，然后按"B"两次。
+- 28 使用十字键`↑`或`↓`选定`home menu`，然后按`B`两次。
 - 29 轻按电源键以重启机器，此时机器会启动主菜单。
 
 ### 四部分 - 恢复所有已安装应用
 **提示：如果你本来就没有安装任何应用，或者机器从未预装有任何应用，此步骤可以跳过**
-- 1 在主菜单启动"Download Play"
-- 2 当看到3DS和DS Logo的两个大按钮后，按下"L"+"十字键↓"+"SELECT"。
-- 3 十字键选择"Miscellaneous options..."，然后按"A"。
-- 4 十字键选择"Switch the hb. title to the current app."，然后按"A"。
-- 5 出现提示后，按"B"三次，然后按"HOME"键，再按"X"关闭"Download Play"。
-- 6 再次在主菜单启动"Download Play"，这时会进入"Homebrew Launcher"。
-- 7 在下屏中用十字键或摇杆选定"faketik"，然后按"A"以运行。
-- 8 等待代码全部跑完后，按"B"返回"Homebrew Launcher"。
-- 9 按"HOME"键，再按"X"关闭"Download Play"。
+- 1 在主菜单启动“Download Play”
+- 2 当看到3DS和DS Logo的两个大按钮后，按下`L`+`十字键↓`+`SELECT`。
+- 3 十字键选择`Miscellaneous options...`，然后按`A`。
+- 4 十字键选择`Switch the hb. title to the current app.`，然后按`A`。
+- 5 出现提示后，按`B`三次，然后按`HOME`键，再按`X`关闭“Download Play”。
+- 6 再次在主菜单启动`Download Play`，这时会进入“Homebrew Launcher”。
+- 7 在下屏中用十字键或摇杆选定“faketik”，然后按`A`以运行。
+- 8 等待代码全部跑完后，按`B`返回“Homebrew Launcher”。
+- 9 按`HOME`键，再按`X`关闭“Download Play”。
 
 ### 五部分 - 修复跨区相关的问题
 #### 提示：
 - 如果你写入的CTRTransfer镜像的区域与机器的原始区域不一致，或者你不知道是不是写入了不同区域的CTRTransfer镜像，那就不要跳过这个步骤，这个部分用于解决部分机型无法进入Model3模式问题，以及无法启动迷你应用的问题；
-- 这个部分会重置掉你的所有Mii角色数据，如果你需要保留它们，可以按照这个教程[保存每一个Mii角色的QR码](https://en-americas-support.nintendo.com/app/answers/detail/a_id/298/~/how-to-generate-a-qr-code%E2%84%A2-for-a-mii)，也可以手动使用GodMode9备份"**[1:] SYSNAND CTRNAND:/data/[ID0]/extdata/00048000/f000000b/**"文件夹里的所有文件，待此部分完成后，你可以再将这个文件夹复制回原来的位置。
+- 这个部分会重置掉你的所有Mii角色数据，如果你需要保留它们，可以按照这个教程[保存每一个Mii角色的QR码](https://en-americas-support.nintendo.com/app/answers/detail/a_id/298/~/how-to-generate-a-qr-code%E2%84%A2-for-a-mii)，也可以手动使用GodMode9备份`[1:] SYSNAND CTRNAND:/data/[ID0]/extdata/00048000/f000000b/`文件夹里的所有文件，待此部分完成后，你可以再将这个文件夹复制回原来的位置。
 
 #### 步骤：
 - 1 将机器关机
 - 2 按住START键，然后按下开机键，片刻后会进入GodMode9。
-	-  如果进入的是"Luma3DS chainloader"菜单，使用十字键手动选择"GodMode9_dev"，然后按"A"运行。
-- 3 打开文件夹"[1:] SYSNAND CTRNAND"→"data"→"[ID0]"→"sysdata"
+	-  如果进入的是“Luma3DS chainloader”菜单，使用十字键手动选择`GodMode9_dev`，然后按`A`运行。
+- 3 打开文件夹`[1:] SYSNAND CTRNAND`→`data`→`[ID0]`→`sysdata`
 	-  [ID0]是一个名字为32字节长度的非固定名字文件夹。
-- 4 使用十字键选定文件夹"00010017"
-- 5 按下"R"+"A"呼出下屏的文件夹菜单
-- 6 用十字键选择"Copy to 0:/gm9/out"，然后按"A"。
-- 7 保持选定文件夹"00010017"，然后按"X"删除。
-- 8 按"A"确认删除
-- 9 再次按"A"，然后输入下屏给出的组合键以解锁"SysNAND (lvl1)"写入权限。
-- 10 再次按"A"以关闭写入权限
-- 11 按下"START"以重启机器
+- 4 使用十字键选定文件夹`00010017`
+- 5 按下`R`+`A`呼出下屏的文件夹菜单
+- 6 用十字键选择`Copy to 0:/gm9/out`，然后按`A`。
+- 7 保持选定文件夹`00010017`，然后按`X`删除。
+- 8 按`A`确认删除
+- 9 再次按`A`，然后输入下屏给出的组合键以解锁`SysNAND (lvl1)`写入权限。
+- 10 再次按`A`以关闭写入权限
+- 11 按下`START`以重启机器
 - 12 机器会引导至开箱配置环节
 	-  这部分是预期行为，你原本的游戏存档等数据均不会丢失。
 - 13 按照机器上的指示完成所有配置项目。

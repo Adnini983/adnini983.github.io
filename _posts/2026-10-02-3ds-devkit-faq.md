@@ -13,7 +13,7 @@ pin: false
 
 ## 一、开机与启动问题
 
-### Q1. 机器开机后无法进入主菜单，只能进入测试菜单(Test Menu)，或无法启动"Dev Menu"和系统设置
+### Q1. 机器开机后无法进入主菜单，只能进入测试菜单(Test Menu)，或无法启动`Dev Menu`和系统设置
 可能原因：你的机器是原型机/工程机，或系统已损坏。
 - 先确认机器是否属于[系统完全损坏](/posts/system-completely-broken/)中描述的情况。
 - CTR/SPR/FTR 系列请阅读 [ntrboot指南](/posts/write-ntrboot/)。
@@ -30,7 +30,7 @@ pin: false
 
 ## 二、soundhax 相关问题
 
-### Q4. 播放"❤️ nedwill 2016"时提示"Could not play(无法播放)"
+### Q4. 播放`❤️ nedwill 2016`时提示"Could not play(无法播放)"
 说明你下载到了**错误版本的M4A文件**，或是与你当前系统的版本不兼容。
 - 重新前往 [SoundHax](http://soundhax.com/) 下载，根据你的区域和机型重新选择，系统版本可参考 [这里](/assets/img/posts/3ds-devkit-guide/res/update_table.png)。
 
@@ -38,14 +38,14 @@ pin: false
 - 按住电源键以执行强制关机，然后重试。
 - 触发漏洞可能需要多次尝试(至多10次)，这是正常的。
 
-### Q6. 首次打开"Nintendo 3DS Sound"时卡在教程
-- 如果你以前从未打开过"Nintendo 3DS Sound"，会出现初次使用此应用的教程，正常走完流程即可继续操作。
+### Q6. 首次打开`Nintendo 3DS Sound`时卡在教程
+- 如果你以前从未打开过`Nintendo 3DS Sound`，会出现初次使用此应用的教程，正常走完流程即可继续操作。
 
 ## 三、MEST9 相关问题
 
-### Q7. 运行MEST9脚本时窗口显示黄色的"Not ready - check MSET9 status for more details"
-- 输入数字"2"，并按照窗口给出的指示来操作。
-- 问题解决后，返回准备工作部分的步骤"20."重新执行。
+### Q7. 运行MEST9脚本时窗口显示黄色的`Not ready - check MSET9 status for more details`
+- 输入数字`2`，并按照窗口给出的指示来操作。
+- 问题解决后，返回准备工作部分的步骤`20.`重新执行。
 
 ### Q8. 运行MEST9脚本时弹出错误
 - 请添加QQ群聊以联系本指南的作者：[1076530032](https://qm.qq.com/q/hVOKXTliWA)。
@@ -53,7 +53,7 @@ pin: false
 ### Q9. 我的用户数据不见了！
 - 这是正常现象。MEST9方法会临时建立一个不包含任何用户数据的主菜单配置文件，你的用户数据会暂时消失。
 - 只要严格执行[四部分 - 移除MEST9](/posts/install-boot9strap-mest9-cli/)中的步骤，你原先的用户数据就会恢复。
-- **不要跳过"移除MEST9"部分**，否则其它的游戏软件可能无法正常运行，且无法进行"完成破解"部分的操作。
+- **不要跳过“移除MEST9”部分**，否则其它的游戏软件可能无法正常运行，且无法进行“完成破解”部分的操作。
 
 ### Q10. 触发漏洞时手抖按了按键怎么办？
 - 触发漏洞的部分(二部分)要求**极其严格地执行**：拔出储存卡、插入储存卡期间都不能按下任何按键或触摸屏幕。
@@ -72,7 +72,7 @@ pin: false
 - 注意：FTR机型没有睡眠传感器，只需要检查睡眠开关是否可以正常工作即可。
 
 ### Q13. 触发ntrboot后门失败(没有进入 SafeB9SInstaller/GodMode9)
-- 触发后门需要同时按住"Start"+"Select"+"X"+开机键数秒，**这可能需要多试几次**。
+- 触发后门需要同时按住`Start`+`Select`+`X`+开机键数秒，**这可能需要多试几次**。
 - 确认磁铁已经放在正确的睡眠传感器位置上或右侧。
 - FTR机型确认睡眠开关已打开。
 
@@ -98,18 +98,18 @@ pin: false
 
 ## 五、GodMode9 / 救砖相关问题
 
-### Q19. 校验CTRTransfer镜像时显示"failed"
+### Q19. 校验CTRTransfer镜像时显示`failed`
 - 说明文件可能已损坏，请重新复制一遍镜像，或者更换你的储存卡。
-- 校验通过时会显示"passed"。
+- 校验通过时会显示`passed`。
 
-### Q20. 复制文件时提示"Destination already exists"
-- 用十字键选择"Overwrite file(s)"，然后按"A"覆盖。
+### Q20. 复制文件时提示`Destination already exists`
+- 用十字键选择`Overwrite file(s)`，然后按`A`覆盖。
 
 ### Q21. 进入GodMode9时提示RTC错误
-- 按"A"修改机器时间，也可以按"B"暂时跳过。
+- 按`A`修改机器时间，也可以按`B`暂时跳过。
 
 ### Q22. 进入GodMode9时提示需要备份重要数据
-- 按"A"执行此操作，片刻后按"A"继续。
+- 按`A`执行此操作，片刻后按`A`继续。
 
 ### Q23. 写入CTRTransfer镜像后机器引导至开箱配置环节
 - 这是预期行为，你原本的游戏存档等数据均不会丢失。
@@ -130,7 +130,7 @@ pin: false
 - **格式化储存卡**：使用guiformat或SDFormatter，分配单元大小设置为32KiB。
 - **不要跳过任何步骤**：每次对系统的修改都有可能导致砖机。遵循本指南不会砖机，但瞎搞一定会。
 - **定期备份NAND**：在[完成破解](/posts/finalizing-setup/)的[五部分 - 备份内部存储(NAND)数据](/posts/finalizing-setup/)中，将备份文件进行多重备份(硬盘或网盘)。如果后期机器系统出现问题，可使用备份数据恢复。
-- **不确定机型时先确认**：Louvre New 3DS XL如果反复尝试仍无法运行"Dev Menu"，你可能拥有的机型不是Louvre New 3DS XL，或是已经破解过的机器。
+- **不确定机型时先确认**：Louvre New 3DS XL如果反复尝试仍无法运行`Dev Menu`，你可能拥有的机型不是Louvre New 3DS XL，或是已经破解过的机器。
 
 ## 七、常见疑问
 

@@ -25,20 +25,20 @@ pin: false
 以上的自制软件里，除了GodMode9以外，其它的自制软件可根据自身需求选择性的下载和安装它们的.cia文件。不过如果你全部都安装上的话，它们可以有效改善你后期的使用体验。
 
 ## 一部分 - 准备工作
-- 1 下载"前言"部分中列出的自制软件；
+- 1 下载“前言”部分中列出的自制软件；
 - 2 将机器关机；
 - 3 将机器的储存卡插入电脑中；
-- 4 在储存卡内建立一个名为"cias"的文件夹(如果没有)；
-- 5 在储存卡的根目录建立一个叫"luma"的文件夹，然后在"luma"文件夹里再建立一个叫"payloads"的文件夹(如果没有)；
+- 4 在储存卡内建立一个名为`cias`的文件夹(如果没有)；
+- 5 在储存卡的根目录建立一个叫`luma`的文件夹，然后在`luma`文件夹里再建立一个叫`payloads`的文件夹(如果没有)；
 	- 如果在此前的破解过程中机器已安装有GodMode9，步骤5-7可以跳过。
-- 6 将"GodMode9-v***-**********.zip"压缩档内的"GodMode9_dev.firm"文件解压至储存卡的"\luma\payloads\"文件夹内；
-- 7 将"GodMode9-v***-**********.zip"压缩档内的"gm9"文件夹解压至储存卡根目录内；
-- 8 将"FBI.cia"复制到储存卡的"cias"文件夹内；
-- 9 将"Homebrew_Launcher.cia"复制到储存卡的"cias"文件夹内；
-- 10 将"Anemone3DS.cia"复制到储存卡的"cias"文件夹内；
-- 11 将"Checkpoint.cia"复制到储存卡的"cias"文件夹内；
-- 12 将"ftpd.cia"复制到储存卡的"cias"文件夹内；
-- 13 将"Universal-Updater.cia"复制到储存卡的"cias"文件夹内；
+- 6 将`GodMode9-v***-**********.zip`压缩档内的`GodMode9_dev.firm`文件解压至储存卡的`\luma\payloads\`文件夹内；
+- 7 将`GodMode9-v***-**********.zip`压缩档内的`gm9`文件夹解压至储存卡根目录内；
+- 8 将`FBI.cia`复制到储存卡的`cias`文件夹内；
+- 9 将`Homebrew_Launcher.cia`复制到储存卡的`cias`文件夹内；
+- 10 将`Anemone3DS.cia`复制到储存卡的`cias`文件夹内；
+- 11 将`Checkpoint.cia`复制到储存卡的`cias`文件夹内；
+- 12 将`ftpd.cia`复制到储存卡的`cias`文件夹内；
+- 13 将`Universal-Updater.cia`复制到储存卡的`cias`文件夹内；
 - 14 将储存卡插回机器内；
 - 15 将机器开机。
 
@@ -61,50 +61,50 @@ pin: false
 	- CTR / SPR / FTR CIAs 0.35.0 神游版 [​提取码：8uxh](https://cloud.189.cn/t/3I3ANrBBf2mq) / ​[备用链接：373j](https://pan.baidu.com/s/1sX0Y1qgS3NA0zWiCz5Xb1w?pwd=373j)
 
 ### 步骤
-- 1 将压缩档内的"SystemUpdater_[机型]-0_35_0-[区域]_cias"文件夹解压至机器的储存卡里
+- 1 将压缩档内的`SystemUpdater_[机型]-0_35_0-[区域]_cias`文件夹解压至机器的储存卡里
 - 2 将储存卡重新插入机器内
-- 3 运行"Dev Menu" 在"SDMC"选项卡里找到"SystemUpdater_[机型]-0_35_0-[区域]_cias"文件夹并打开它
-- 4 按下L+R+A组合键自动安装所有的CIA文件
+- 3 运行“Dev Menu”，在`SDMC`选项卡里找到`SystemUpdater_[机型]-0_35_0-[区域]_cias`文件夹并打开它
+- 4 按下`L`+`R`+`A`组合键自动安装所有的CIA文件
 - 5 找到对应自己机型的NATIVE_FIRM CIA文件：
-	- CTR / SPR / FTR 机型，用十字键选中"0004013800000002.cia"文件。
-	- SNAKE / CLOSER / JAN 机型，用十字键选中"0004013820000002.cia"文件。
-- 6 按下Start + Y组合键，然后按A确定，以更新NATIVE_FIRM。
+	- CTR / SPR / FTR 机型，用十字键选中`0004013800000002.cia`文件。
+	- SNAKE / CLOSER / JAN 机型，用十字键选中`0004013820000002.cia`文件。
+- 6 按下`Start` + `Y`组合键，然后按`A`确定，以更新NATIVE_FIRM。
 - 7 按住电源键将主机关机
 
 ## 三部分 - 安装自制软件
-- 1 将机器开机，运行"Dev Menu"。
-- 2 在"SDMC"选项卡里找到"cias"文件夹并打开它。
+- 1 将机器开机，运行“Dev Menu”。
+- 2 在`SDMC`选项卡里找到`cias`文件夹并打开它。
 - 3 按下L+R+A组合键自动安装所有的CIA文件
-- 4 关闭"Dev Menu"，然后将机器关机。
+- 4 关闭“Dev Menu”，然后将机器关机。
 
 ## 四部分 - 破解固化
-- 1 按住机器的"Start"键开机，选择"GodMode9_dev"。
-	 - 如果"GodMode9"提示你需要备份重要数据，按"A"执行此操作，片刻后按"A"继续，
-- 2 按"HOME"键打开主菜单
-- 3 依次选择"Scripts"→"GM9Megascript"→"Scripts from Plailect's Guide"→"Setup Luma3DS to CTRNAND"
-- 4 出现提示时按"A"
-- 5 再次按"A"，然后依次输入下屏给出的组合键以解锁LV1 SysNAND写入权限。
-- 6 按"A"继续，然后再次按"A"关闭写入权限。
+- 1 按住机器的`Start`键开机，选择`GodMode9_dev`。
+	 - 如果“GodMode9”提示你需要备份重要数据，按`A`执行此操作，片刻后按`A`继续，
+- 2 按`HOME`键打开主菜单
+- 3 依次选择`Scripts`→`GM9Megascript`→`Scripts from Plailect's Guide`→`Setup Luma3DS to CTRNAND`
+- 4 出现提示时按`A`
+- 5 再次按`A`，然后依次输入下屏给出的组合键以解锁LV1 SysNAND写入权限。
+- 6 按`A`继续，然后再次按`A`关闭写入权限。
 
 ## 五部分 - 备份内部存储(NAND)数据
 - 1 按住START键，然后按下开机键，片刻后会进入GodMode9；
-	- 如果进入的是"Luma3DS chainloader"菜单，使用十字键手动选择"GodMode9_dev"，然后按"A"运行；
-		- 如果"GodMode9"提示你需要备份重要数据，按"A"执行此操作，片刻后按"A"继续。
-		- 如果"GodMode9"提示RTC错误，按"A"修改机器时间，也可以按"B"暂时跳过。
-- 2 按下"HOME"键以开启位于下屏的功能菜单；
-- 3 选择"Scripts..."；
-- 4 选择"NANDManager"；
-- 5 按"X"，然后按"A"，以备份SysNAND；
-- 6 待进度条跑完后，按"A"确认，然后按十字键"↑"，再次按"A"回到主菜单；
-- 7 打开"[S:] SYSNAND VIRTUAL"分区；
-- 8 用十字键选定文件"essential.exefs"；
-- 9 按"A"呼出文件菜单；
-- 10 十字键选择"Copy to 0:/gm9/out"，然后按"A"复制；
-	-  如果下屏出现"Destination already exists"，用十字键选择"Overwrite file(s)"，然后按"A"覆盖。
-- 11 再次按"A"以继续；
-- 12 按住"R"，然后按下"START"以将机器关机；
+	- 如果进入的是“Luma3DS chainloader”菜单，使用十字键手动选择`GodMode9_dev`，然后按`A`运行；
+		- 如果“GodMode9”提示你需要备份重要数据，按`A`执行此操作，片刻后按`A`继续。
+		- 如果“GodMode9”提示RTC错误，按`A`修改机器时间，也可以按`B`暂时跳过。
+- 2 按下`HOME`键以开启位于下屏的功能菜单；
+- 3 选择`Scripts...`；
+- 4 选择`NANDManager`；
+- 5 按`X`，然后按`A`，以备份SysNAND；
+- 6 待进度条跑完后，按`A`确认，然后按十字键`↑`，再次按`A`回到主菜单；
+- 7 打开`[S:] SYSNAND VIRTUAL`分区；
+- 8 用十字键选定文件`essential.exefs`；
+- 9 按`A`呼出文件菜单；
+- 10 十字键选择`Copy to 0:/gm9/out`，然后按`A`复制；
+	-  如果下屏出现`Destination already exists`，用十字键选择`Overwrite file(s)`，然后按`A`覆盖。
+- 11 再次按`A`以继续；
+- 12 按住`R`，然后按下`START`以将机器关机；
 - 13 将机器的储存卡插入电脑中；
-- 14 在电脑中打开储存卡的"/gm9/out/"文件夹；
+- 14 在电脑中打开储存卡的`/gm9/out/`文件夹；
 - 15 将以下文件复制出来：
 ~~~
 [日期]_[序列号]_sysnand_[次数].bin

@@ -21,8 +21,8 @@ pin: false
 ## 步骤
 - 1 移除DSPico卡槽里的microSD卡(如果有)
 - 2 使用microUSB数据线或USB Type-C数据线连接电脑
-- 3 在电脑上打开卷标为"RPI-RP2"的外置磁盘分区
-- 4 将文件"DSpico-profi200-dev.uf2"复制到卷标为"RPI-RP2"的外置磁盘分区内
+- 3 在电脑上打开卷标为`RPI-RP2`的外置磁盘分区
+- 4 将文件`DSpico-profi200-dev.uf2`复制到卷标为`RPI-RP2`的外置磁盘分区内
 - 5 等候2-5秒，DSPico会自动弹出并重新连接电脑。
 - 6 将DSPico从数据线上移除
 - 7 插回DSPico的microSD卡(如果有)

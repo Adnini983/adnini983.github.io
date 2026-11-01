@@ -15,17 +15,17 @@ pin: false
 - 在上文中写入了ntrboot固件的烧录卡
 - 最新版本的 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip)
 - 最新版本的 [boot9strap Devkit](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4-devkit.zip)
-- 最新版本的 [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)(下载".zip"文件)
+- 最新版本的 [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)(下载`.zip`文件)
 
 ## 步骤
 ### 一部分 - 准备工作
 - 1 关闭你的机器
 - 2 将机器的储存卡插入电脑(不是烧录卡的)
-- 3 将"SafeB9SInstaller-20170605-122940.zip"压缩档内的"SafeB9SInstaller.firm"文件解压至储存卡根目录
-- 4 将"SafeB9SInstaller.firm"更名为"boot.firm"
-- 5 将"Luma3DS***.zip"压缩档内的"boot.3dsx"文件解压至储存卡根目录
-- 6 新建一个名为"boot9strap"的文件夹
-- 7 将"boot9strap-1.4-devkit.zip"压缩档内的所有文件解压至储存卡内的"/boot9strap/"文件夹
+- 3 将`SafeB9SInstaller-20170605-122940.zip`压缩档内的`SafeB9SInstaller.firm`文件解压至储存卡根目录
+- 4 将`SafeB9SInstaller.firm`更名为`boot.firm`
+- 5 将`Luma3DS***.zip`压缩档内的`boot.3dsx`文件解压至储存卡根目录
+- 6 新建一个名为`boot9strap`的文件夹
+- 7 将`boot9strap-1.4-devkit.zip`压缩档内的所有文件解压至储存卡内的`/boot9strap/`文件夹
 - 8 将储存卡插回机器内
 - 9 将主机开机
 
@@ -36,7 +36,7 @@ pin: false
 - 3 将烧录卡插入机器
 - 4 将磁铁放在睡眠传感器的位置上或右侧
 	- FTR机型打开睡眠开关即可
-- 5 同时按住"Start"+"Select"+"X"+开机键 数秒
+- 5 同时按住`Start`+`Select`+`X`+开机键 数秒
 	- 这可能需要多试几次
 - 6 如果后门触发成功，你将会看到 SafeB9SInstaller。
 
@@ -46,16 +46,16 @@ pin: false
 - 2 依次输入上屏显示的组合键来安装boot9strap
 - 3 完成后，按住电源键以关闭机器。
 - 4 将机器的储存卡插入电脑
-- 5 移除储存卡根目录下的"boot.firm"文件
-- 6 将"Luma3DS***.zip"压缩档内的"boot.firm"文件解压至储存卡根目录
+- 5 移除储存卡根目录下的`boot.firm`文件
+- 6 将`Luma3DS***.zip`压缩档内的`boot.firm`文件解压至储存卡根目录
 - 7 将储存卡插回机器内
 - 8 将主机开机
 - 9 你的机器应该已经自动进入到Luma3DS的配置菜单了。在本指南中，暂时不要改动这些选项，保持默认即可。
-- 10 按"Start"键保存设置并重启
+- 10 按`Start`键保存设置并重启
 
 **如果你的机器的系统正常 可继续至[完成破解](/posts/finalizing-setup/)**
 
-**如果你的机器是CTR/SPR/FTR系列且无法运行"Dev Menu" 请继续至[CTRTransfer (救砖)](/posts/ctrtransfer-unbricking/)**
+**如果你的机器是CTR/SPR/FTR系列且无法运行“Dev Menu” 请继续至[CTRTransfer (救砖)](/posts/ctrtransfer-unbricking/)**
 
 下面是一个可选的步骤，用于恢复烧录卡的原始功能(这样就可以继续用于运行DS游戏软件了)。
 
@@ -99,17 +99,17 @@ pin: false
 #### 步骤
 - 1 将机器关机
 - 2 将机器的储存卡插入电脑(不是烧录卡的)
-- 3 在储存卡根目录建立一个叫"ntrboot"的文件夹
-- 4 将烧录卡的固件备份文件复制到"ntrboot"文件夹里
+- 3 在储存卡根目录建立一个叫`ntrboot`的文件夹
+- 4 将烧录卡的固件备份文件复制到`ntrboot`文件夹里
 	- 如果是上文下载获得的，需要先解压。
-- 5 在储存卡的根目录建立一个叫"luma"的文件夹，然后在"luma"文件夹里再建立一个叫"payloads"的文件夹。
-- 6 把"ntrboot_flasher.firm"文件复制到储存卡的"\luma\payloads\"文件夹内
+- 5 在储存卡的根目录建立一个叫`luma`的文件夹，然后在`luma`文件夹里再建立一个叫`payloads`的文件夹。
+- 6 把`ntrboot_flasher.firm`文件复制到储存卡的`\luma\payloads\`文件夹内
 - 7 将储存卡插回机器内
 - 8 将待恢复的烧录卡插入机器的卡槽内
-- 9 按住"Start"键开机，选择"ntrboot_flasher"。
-- 10 出现红屏警告后，按"A"继续。
+- 9 按住`Start`键开机，选择`ntrboot_flasher`。
+- 10 出现红屏警告后，按`A`继续。
 - 11 选择你的烧录卡种类。如果你找不到你的烧录卡，请阅读下屏给出的详细信息再选择。
-- 12 选择"Restore Flash"
-- 13 按"A"继续
-- 14 等待进度条完成后，按"A"返回主菜单。
-- 15 按"B"键将机器关机
+- 12 选择`Restore Flash`
+- 13 按`A`继续
+- 14 等待进度条完成后，按`A`返回主菜单。
+- 15 按`B`键将机器关机
