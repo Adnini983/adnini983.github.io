@@ -225,6 +225,9 @@ exclude:
   - purgecss.js
   - "*.config.js"
   - "package*.json"
+  # 本地辅助脚本与 AI 对接文档：不入站点产物，避免本机路径/代理配置被构建进 _site
+  - preview.cmd
+  - AI_AGENT_INTEGRATION.md
 
 jekyll-archives:
   enabled: [categories, tags]
